@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: 5d0312078497ab049957388a0f90b32b
+timeCreated: 1509299609
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: benne mat
+    100002: benne remorque mat
+    100004: //RootNode
+    100006: carcasse mat
+    100008: Pneu mat
+    100010: Pneu mat 005
+    100012: Pneu mat001
+    100014: Pneu mat002
+    100016: Pneu mat003
+    100018: Pneu mat004
+    100020: Pneu mat006
+    100022: Pneu mat007
+    100024: Pneu mat008
+    100026: Pneu mat009
+    100028: remorque base mat
+    400000: benne mat
+    400002: benne remorque mat
+    400004: //RootNode
+    400006: carcasse mat
+    400008: Pneu mat
+    400010: Pneu mat 005
+    400012: Pneu mat001
+    400014: Pneu mat002
+    400016: Pneu mat003
+    400018: Pneu mat004
+    400020: Pneu mat006
+    400022: Pneu mat007
+    400024: Pneu mat008
+    400026: Pneu mat009
+    400028: remorque base mat
+    2300000: benne mat
+    2300002: benne remorque mat
+    2300004: carcasse mat
+    2300006: Pneu mat
+    2300008: Pneu mat 005
+    2300010: Pneu mat001
+    2300012: Pneu mat002
+    2300014: Pneu mat003
+    2300016: Pneu mat004
+    2300018: Pneu mat006
+    2300020: Pneu mat007
+    2300022: Pneu mat008
+    2300024: Pneu mat009
+    2300026: remorque base mat
+    3300000: benne mat
+    3300002: benne remorque mat
+    3300004: carcasse mat
+    3300006: Pneu mat
+    3300008: Pneu mat 005
+    3300010: Pneu mat001
+    3300012: Pneu mat002
+    3300014: Pneu mat003
+    3300016: Pneu mat004
+    3300018: Pneu mat006
+    3300020: Pneu mat007
+    3300022: Pneu mat008
+    3300024: Pneu mat009
+    3300026: remorque base mat
+    4300000: benne mat
+    4300002: carcasse mat
+    4300004: Pneu mat
+    4300006: Pneu mat001
+    4300008: Pneu mat002
+    4300010: Pneu mat003
+    4300012: Pneu mat004
+    4300014: benne remorque mat
+    4300016: remorque base mat
+    4300018: Pneu mat 005
+    4300020: Pneu mat006
+    4300022: Pneu mat007
+    4300024: Pneu mat008
+    4300026: Pneu mat009
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: benne mat
+    second: {fileID: 2100000, guid: 6454266d9c2d3314a86795e0b2f6761a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: carcasse mat
+    second: {fileID: 2100000, guid: dea4a04b98820cf41a3a07a37b14e926, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pneu mat
+    second: {fileID: 2100000, guid: 8e3865d0f6fcaa84b99d75985682b511, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: remorque mat
+    second: {fileID: 2100000, guid: fd9cffadecae14d489f761861217b442, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

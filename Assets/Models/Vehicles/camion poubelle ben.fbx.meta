@@ -1,0 +1,162 @@
+fileFormatVersion: 2
+guid: d9a2259e3afedaf499433a23bb37498a
+timeCreated: 1509299616
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Benne
+    100002: Camion ben
+    100004: //RootNode
+    100006: couvercle benne
+    100008: "lumi\xE8re"
+    100010: Pneu
+    100012: Pneu001
+    100014: Pneu002
+    100016: Pneu003
+    100018: Pneu004
+    100020: Pneu005
+    100022: verrin
+    400000: Benne
+    400002: Camion ben
+    400004: //RootNode
+    400006: couvercle benne
+    400008: "lumi\xE8re"
+    400010: Pneu
+    400012: Pneu001
+    400014: Pneu002
+    400016: Pneu003
+    400018: Pneu004
+    400020: Pneu005
+    400022: verrin
+    2300000: Benne
+    2300002: Camion ben
+    2300004: couvercle benne
+    2300006: "lumi\xE8re"
+    2300008: Pneu
+    2300010: Pneu001
+    2300012: Pneu002
+    2300014: Pneu003
+    2300016: Pneu004
+    2300018: Pneu005
+    2300020: verrin
+    3300000: Benne
+    3300002: Camion ben
+    3300004: couvercle benne
+    3300006: "lumi\xE8re"
+    3300008: Pneu
+    3300010: Pneu001
+    3300012: Pneu002
+    3300014: Pneu003
+    3300016: Pneu004
+    3300018: Pneu005
+    3300020: verrin
+    4300000: Benne
+    4300002: Camion ben
+    4300004: couvercle benne
+    4300006: "lumi\xE8re"
+    4300008: Pneu
+    4300010: Pneu001
+    4300012: Pneu002
+    4300014: Pneu003
+    4300016: Pneu004
+    4300018: Pneu005
+    4300020: verrin
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: benne ben
+    second: {fileID: 2100000, guid: e4bf3bad04e738347b482473e055abcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: camion ben
+    second: {fileID: 2100000, guid: abe4b70fd2671024c8b2aa54cdeec66b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "lumi\xE8re AR ben"
+    second: {fileID: 2100000, guid: f2a587cce77164842b3edc560ee3d80c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pneu
+    second: {fileID: 2100000, guid: f793f5c41cde4034bad7d7d1a6b76653, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
