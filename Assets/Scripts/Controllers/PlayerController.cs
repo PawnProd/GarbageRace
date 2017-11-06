@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour {
 
 
     public int numPlayer;
+    public int numCheckpoint; 
+    public GameObject nextCheckpoint;
 
     public enum PlayerState
     {
@@ -22,9 +24,6 @@ public class PlayerController : MonoBehaviour {
     public GameObject cameraPlayer;
 
     private CarController _carController;
-
-
-
 
 	// Use this for initialization
 	void Start () {
@@ -64,5 +63,23 @@ public class PlayerController : MonoBehaviour {
         float handbrake = Input.GetAxis("Jump");
 
         _carController.Move(h, v, v, handbrake);
+    }
+
+    public int GetNumCheckpoint()
+    {
+        return numCheckpoint;
+    }
+
+    /***********************************************
+     *                  SETTERS
+     **********************************************/
+    public void SetNextCheckpoint(GameObject nextCP)
+    {
+        nextCheckpoint = nextCP;
+    }
+
+    public void SetNumCheckpoint(int num)
+    {
+        numCheckpoint = num;
     }
 }

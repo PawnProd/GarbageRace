@@ -165,7 +165,7 @@ public class CarController : MonoBehaviour
         GearChanging();
 
         AddDownForce();
-        CheckForWheelSpin();
+        //CheckForWheelSpin();
         TractionControl();
     }
 
