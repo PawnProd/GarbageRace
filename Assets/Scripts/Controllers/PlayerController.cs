@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
 
-
     public int numPlayer;
     public int numCheckpoint; 
+
     public GameObject nextCheckpoint;
     public GameObject arrow;
+
+    public GamePadController gamepad;
 
     public enum PlayerState
     {
@@ -61,9 +63,25 @@ public class PlayerController : MonoBehaviour {
 
     public void TriggerInGameAction()
     {
-        float h = Input.GetAxis("Horizontal");
-        float v = Input.GetAxis("Vertical");
-        float handbrake = Input.GetAxis("Jump");
+        float h;
+        float v;
+        float handbrake = 0;
+        if(gamepad != null)
+        {
+            h = gamepad.GetAxisLeftX();
+            v = gamepad.GetRightTrigger();
+            if(gamepad.GetShoulderStateLeft("press") || gamepad.GetShoulderStateRight("press"))
+            {
+                handbrake = 1;
+            }
+        }
+        else
+        {
+            h = Input.GetAxis("Horizontal");
+            v = Input.GetAxis("Vertical");
+            handbrake = Input.GetAxis("Jump");
+
+        }
 
         _carController.Move(h, v, v, handbrake);
     }

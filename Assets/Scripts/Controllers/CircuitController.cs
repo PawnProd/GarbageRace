@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CheckpointController : MonoBehaviour {
+public class CircuitController : MonoBehaviour {
 
     public GameObject[] allCheckpoints;
 
