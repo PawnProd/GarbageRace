@@ -12,7 +12,20 @@ public class Checkpoint : MonoBehaviour {
         if(other.tag == "Player")
         {
             PlayerController player = other.transform.parent.parent.GetComponent<PlayerController>();
-            player.SetNextCheckpoint(cpController.GetCheckpointAt(player.GetNumCheckpoint() + 1));
+            int numCheckpoint;
+
+            if(lastCheckpoint)
+            {
+                print("Un tour !");
+                numCheckpoint = 0;
+            }
+            else
+            {
+                numCheckpoint = player.GetNumCheckpoint() + 1;
+            }
+
+            player.SetNextCheckpoint(cpController.GetCheckpointAt(numCheckpoint));
+            player.SetNumCheckpoint(numCheckpoint);
         }
     }
 }

@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour {
     public int numPlayer;
     public int numCheckpoint; 
     public GameObject nextCheckpoint;
+    public GameObject arrow;
 
     public enum PlayerState
     {
@@ -41,6 +42,8 @@ public class PlayerController : MonoBehaviour {
                 break;
 
             case PlayerState.Playing:
+                Vector3 direction = nextCheckpoint.transform.position - arrow.transform.position;
+                arrow.transform.rotation = Quaternion.RotateTowards(arrow.transform.rotation, Quaternion.LookRotation(direction), 5);
                 break;
 
             case PlayerState.Respawn:
